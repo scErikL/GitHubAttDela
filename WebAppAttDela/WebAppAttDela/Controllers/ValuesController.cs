@@ -12,7 +12,7 @@ namespace WebAppAttDela.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "anna", "value2", "value1" };
+            return new string[] { "rolf", "anna", "value2", "value1" };
         }
 
         // GET api/values/5
