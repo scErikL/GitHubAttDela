@@ -16,9 +16,10 @@ namespace WebAppAttDela.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public int Get(int id)
         {
-            return "value";
+            int integer = id + 1;
+            return integer;
         }
 
         // POST api/values
